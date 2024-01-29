@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+   
+    <div class="main">
+        <div class="calculator ">
+             
+                <input  type="text" readonly class="display">
+             
+            <div class="buttonContainer">
+
+                <button class="btn t-color" 
+                onclick="showDisplay ='' 
+                pressBTN()   ">AC</button>
+
+                <button class="btn t-color"
+                onclick="  handleBackspace () ">&#8592</button>
+
+                <button class="btn t-color" 
+                onclick="showDisplay += '%'  
+                pressBTN()    ">%</button>
+
+                <button class="btn r-color w-color" 
+                onclick="showDisplay += '/'  
+                pressBTN()    ">/</button>
+
+                <button class="btn m-color w-color"
+                onclick="showDisplay += '7'  
+                pressBTN()    ">7</button>
+
+                <button class="btn m-color w-color"
+                 onclick="showDisplay += '8'  
+                pressBTN()    ">8</button>
+
+                <button class="btn m-color w-color"
+                 onclick="showDisplay += '9'  
+                pressBTN()    ">9</button>
+
+                <button class="btn r-color w-color"
+                 onclick="showDisplay += '*'  
+                pressBTN()    ">*</button>
+
+                <button class="btn m-color w-color"
+                 onclick="showDisplay += '4'  
+                pressBTN()    ">4</button>
+
+                <button class="btn m-color w-color"
+                 onclick="showDisplay += '5'  
+                pressBTN()    ">5</button>
+
+                <button class="btn m-color w-color"
+                 onclick="showDisplay += '6'  
+                pressBTN()    ">6</button>
+
+                <button class="btn r-color w-color"
+                 onclick="showDisplay += '-'  
+                pressBTN()    ">-</button>
+
+                <button class="btn m-color w-color"
+                 onclick="showDisplay += '1'  
+                pressBTN()    ">1</button>
+
+                <button class="btn m-color w-color"
+                 onclick="showDisplay += '2'  
+                pressBTN()    ">2</button>
+
+                <button class="btn m-color w-color"
+                 onclick="showDisplay += '3'  
+                pressBTN()    ">3</button>
+
+                <button class="btn r-color w-color"
+                 onclick="showDisplay += '+'  
+                pressBTN()    ">+</button>
+
+                <button class=" btn1 m-color w-color"
+                 onclick="showDisplay += '0'  
+                pressBTN()    ">0</button>
+
+                <button class="btn m-color w-color"
+                 onclick="showDisplay += '.'  
+                pressBTN()    ">.</button>
+
+                <button class="btn r-color w-color"
+                onclick="showDisplay = eval(showDisplay)
+                pressBTN()    ">=</button>
+                 
+                 
+
+               
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="calculator.js"></script>
+</body>
+</html>
